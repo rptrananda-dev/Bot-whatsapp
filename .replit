@@ -1,0 +1,6 @@
+[run]
+language = "python3"
+entrypoint = "main.py"
+
+[deployment]
+run = ["sh", "-c", "python main.py"]
